@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmação de Presença</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Confirme sua presença!</h1>
+
+        <label for="ra">Seu R.A </label>
+        <input type="text" id="ra" name="ra" placeholder="Digite sua matrícula...">
+
+        <label for="codigo">Seu Nome</label>
+        <input type="text" id="codigo" name="codigo" placeholder="Digite o seu nome...">
+
+        <button id="confirmar-presenca">Confirmar Presença</button>
+
+        <hr>
+
+        <h2>Informações da Aula</h2>
+
+        <label for="professor">Professor(a)</label>
+        <input type="text" id="professor" name="professor" placeholder="Nome do Professor(a)...">
+
+        <label for="disciplina">Cadeira</label>
+        <input type="text" id="disciplina" name="disciplina" placeholder="Assunto...">
+
+        <button id="gerar-pdf">Lista de Presentes/PDF</button>
+
+        <div id="datetime"></div>
+        <!--Luquian: Adicionanando Footer; nome do grupo, desenvolvimento e Hiperlink -->
+        <footer class="footer">
+            <div class="footer-content">
+                <hr>
+                <h1>ADS</h1>
+                <p>Análise e Desenvolvimento de Sistemas</p>
+                <img src="img/logo.png" alt="Image" height="30">
+                <hr>
+                <p>Desenvolvido por <a href="https://github.com/LukeCesar7">LukeCesar7</a></p>
+                <p>Versão 1.0</p>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

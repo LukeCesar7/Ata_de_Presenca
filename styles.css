@@ -1,0 +1,60 @@
+body {
+    /*Luquian: adicionando imagem de background */
+    background-image: url("img/background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: JetBrains Mono;
+    background-color: #1e1e2d;
+    color: #646260;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background-color: #b6b6b6;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    width: 500px;
+    text-align: center;
+}
+h1, h2 {
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+    font-weight: bold;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+button {
+    font-family: JetBrains Mono;
+    background-color: #4e4e4e;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover {
+    background-color: #00ff15;
+}
+#datetime {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #080808;
+}
