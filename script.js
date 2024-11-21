@@ -46,7 +46,7 @@ document.getElementById('gerar-pdf').addEventListener('click', function() {
     doc.line(20, 55, 190, 55);
 
     // Cabeçalhos da tabela
-    doc.setFontSize(12);
+    doc.setFontSize(9);
     doc.setFont('helvetica', 'bold');
     doc.text("Nº", 20, 65);
     doc.text("Matrícula (RA)", 40, 65);
